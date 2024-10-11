@@ -1,0 +1,297 @@
+<html>
+    <head><!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Stylish Navigation Bar</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+            <style >
+            /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Ink Free', sans-serif;
+        }
+        
+        /* Header and Navbar */
+        header {
+            background-color: #1e1e1e;
+            padding: 10px 0;
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        
+        .logo a {
+            background-image: url(dimandlogo.png);
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        .nav-links {
+            list-style: none;
+            display: flex;
+            margin: 0;
+        }
+        
+        .nav-links li {
+            margin-left: 20px;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #ccc;
+            font-size: 18px;
+            padding: 10px 15px;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            color: #fff;
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        
+        /* Search Bar */
+        .search-bar {
+            display: flex;
+            align-items: center;
+        }
+        
+        .search-bar input[type="text"] {
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+        }
+        
+        .search-bar button {
+            padding: 8px 12px;
+            background-color: #f39c12;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .search-bar button:hover {
+            background-color: #e67e22;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        
+            .nav-links {
+                flex-direction: column;
+                margin-top: 10px;
+            }
+        
+            .nav-links li {
+                margin-left: 0;
+                margin-bottom: 10px;
+            }
+        }
+        </style>
+            <header>
+                <nav class="navbar">
+                    <div class="logo">
+                        <a href="#">MyLogo</a>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="jewelcraze.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                    </ul>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search...">
+                        <button>Search</button>
+                    </div>
+                </nav>
+            </header>
+        </body>
+        </html>
+        <title>new project</title>
+        <body style="background-color: #f58c31; color: rgba(248, 252, 251, 0.911); font-family: "Goudy Old Style;">
+            <h1 style="text-align: center;" style="color:black;" > Jewel Craze </h1>
+            <p><center> JewelCraze-where brilliance meets elegants.</centers></p>
+        </body>
+    </head>
+</html>
+
+
+<html>
+    <head>
+      <style>
+
+            .portfolio-container {
+			display:flex;
+            flex-direction:column;
+            padding:20px;
+}			
+
+             /*profile section*/
+			 .profile-section {
+			 display:flex;
+			 align-items:center;
+			 margin-bottom:30px;
+}			 
+
+
+
+             .bio {
+			  margin-left:20px;
+}
+
+           .bio h2 {
+		   font-size:24px;
+            margin-bottom:10px;
+}
+
+          /* skills section*/
+		  .skills-section {
+		     display:flex; 
+			 flex-wrap:wrap;
+			 gap:10px;
+             margin-bottom:30px;   
+                 
+}
+
+          .skill {
+		     background-color:black;
+             color:white;
+             padding:20px 30px; 
+             border-radius:20px;
+			 margin:15px;
+         
+			 width:150px; 
+}
+
+
+
+            
+           /* projects section*/  
+           .project-section {
+		    display:flex;
+            gap:20px;
+			height:300px;
+}
+
+            .project-card {
+			 flex-basis:50%;
+             background-color:black;
+             padding:20px;
+             border-radius:5px;
+             margin:50px;
+             
+             
+            
+}
+
+    /* Responsive design */
+	   @media (max-width: 900px) {
+	     .project-section {
+		   flex-direction:column;
+}		   
+    .project-card {
+	   flex-basis:100%;
+	}
+	
+	@media (max-width: 600px) {
+	h1 {
+	   font-size:1.5rem;
+}
+}
+
+@media (min-width: 900px) {
+  h1 {  
+      font-size:3rem;
+}
+}	  
+	
+	
+	
+	
+}	
+
+	   
+
+
+</style>
+</head>
+<body>
+
+<div class="portfolio-container">
+
+<!-Profile section->
+
+<div class="profile-section">
+  
+	 <h1>WELCOME</h1>
+	 
+	  <img src="profile.jpeg" alt="Pic" width="150px">    
+
+<div class="bio">
+<h2>Abdul Ahad</h2>
+       <p>Hand Made & Official Jewelleries will be found from Jewel Crave<br>We are always available here for you </p>
+</div>
+</div>
+ 
+
+
+     <!-Skills section->
+ <div class="skills-section">
+   <div class="skill">Customer service</div>
+   <div class="skill">Detail-oriented</div>
+  <div class="skill">Communication</div>
+  <div class="skill">Engraving</div>
+
+
+
+</div>
+
+ <!-Projecrs Section->
+ <div class="project-section">
+  <div class="project-card">
+    <h3>1st Project</h3>
+ <p>We have sold a Large amount of Jewelleries to Dubai</p>
+</div>
+
+
+ <div class="project-card">
+    <h3>2nd Project</h3>
+ <p>A Big Contract of Jewelleries with Malaysia</p>
+</div>
+
+
+
+ <div class="project-card">
+    <h3>3rd Project</h3>
+ <p>none</p>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+</body>
+</html>

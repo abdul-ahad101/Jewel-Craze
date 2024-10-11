@@ -1,0 +1,272 @@
+<html>
+    <head><!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Stylish Navigation Bar</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+            <style >
+            /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Ink Free', sans-serif;
+        }
+        
+        /* Header and Navbar */
+        header {
+            background-color: #1e1e1e;
+            padding: 10px 0;
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        
+        .logo a {
+            background-image: url(dimandlogo.png);
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        .nav-links {
+            list-style: none;
+            display: flex;
+            margin: 0;
+        }
+        
+        .nav-links li {
+            margin-left: 20px;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #ccc;
+            font-size: 18px;
+            padding: 10px 15px;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            color: #fff;
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        
+        /* Search Bar */
+        .search-bar {
+            display: flex;
+            align-items: center;
+        }
+        
+        .search-bar input[type="text"] {
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+        }
+        
+        .search-bar button {
+            padding: 8px 12px;
+            background-color: #f39c12;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .search-bar button:hover {
+            background-color: #e67e22;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        
+            .nav-links {
+                flex-direction: column;
+                margin-top: 10px;
+            }
+        
+            .nav-links li {
+                margin-left: 0;
+                margin-bottom: 10px;
+            }
+        }
+        </style>
+            <header>
+                <nav class="navbar">
+                    <div class="logo">
+                        <a href="#">MyLogo</a>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="jewelcraze.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                    </ul>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search...">
+                        <button>Search</button>
+                    </div>
+                </nav>
+            </header>
+        </body>
+        </html>
+        <title>new project</title>
+        <body style="background-color: #f58c31; color: rgba(248, 252, 251, 0.911); font-family: "Goudy Old Style;">
+            <h1 style="text-align: center;" style="color: #f03069;" >Our products</h1>
+            <p><center> JewelCraze-where brilliance meets elegants.</centers></p>
+        </body>
+    </head>
+</html>
+
+
+<html>
+<head>
+<style>
+
+/*Product Grid*/
+.product-grid {
+             display:flex;
+			 flex-wrap:wrap;
+			 gap:20px;
+			 justify-content:space-between;
+			 padding:20px;
+}			 
+
+/*Product Cards*/
+.product-card {
+             flex-basis:30%;
+			 background-color: #f4f4f4;
+			 padding:15px;
+			 color:black;
+			 border-radius:10px;
+			 box-shadow:0 4px 8px rgba(0,0,0.1);
+			 text-align:center;\
+}
+.product-card img {
+             max-width:100%;
+             height:auto;
+             border-radius:5px;
+ }
+.product-card h3 {
+             margin:15px 0 10px;
+             font-size:15px;
+}
+.product-card button {
+             background-color:3498db;
+             color:white;
+             borderr:none;
+             padding:10px 15px;
+             border-radius:5px;
+             cursor:pointer;
+}
+.product-card button hover {
+             background-color:2980b9;
+}			 
+			 
+		@media(max-width: 1000px	) {
+           .product-card {
+              flex-basis:100%;
+			  
+			
+   }
+}   
+			  
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+</head>
+<body>
+<section class="product-grid">
+   <div class="product-card"
+    <img src="#chain.jpeg" alt="Product Pic">
+	<h3>Love Chain</h3>
+	<p>100$</p>
+	<button>Buy</button>
+	</div>
+
+  <div class="product-card"
+    <img src="#bracelet.jpeg" alt="Product Pic">
+	<h3>Bracelet</h3>
+	<p>300$</p>
+	<button>Buy</button>
+	</div>
+
+  <div class="product-card"
+    <img src="#" alt="Product Pic">
+	<h3>Product 3</h3>
+	<p>Price</p>
+	<button>Buy</button>
+	</div>
+
+          <1-- Add more product cards here -->
+		  
+	</section>	  
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
